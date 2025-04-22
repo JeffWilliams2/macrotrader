@@ -2,6 +2,9 @@
 
 # MacroTrader: Macroeconomic Event Analysis for Equity Analysis
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
 ## 🔍 Overview
 
 MacroTrader is a comprehensive analytics tool designed to help options traders capitalize on market overreactions to macroeconomic events. By monitoring FOMC meetings, Fed speeches, JOLTS reports, and other significant economic releases, MacroTrader identifies intraday volatility patterns and potential trading opportunities in SPY, TLT, and GLD.
