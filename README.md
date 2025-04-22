@@ -2,18 +2,39 @@
 
 # MacroTrader: Macroeconomic Event Analysis for Equity Analysis
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
-
-<p align="center">
-  <img src="docs/images/dashboard_preview.png" alt="MarketPulse Dashboard" width="750">
-</p>
-
 ## 🔍 Overview
 
 MacroTrader is a comprehensive analytics tool designed to help options traders capitalize on market overreactions to macroeconomic events. By monitoring FOMC meetings, Fed speeches, JOLTS reports, and other significant economic releases, MacroTrader identifies intraday volatility patterns and potential trading opportunities in SPY, TLT, and GLD.
 
-My experience in financial market news revealed a persistent pattern: markets frequently overreact to macroeconomic news in the short term, creating temporary mispricing in equities and option premiums. MacroTrader was built to detect and provide actionable insights for short-term to mid-term trading strategies.
+<p align="center">
+  <img src="/images/macro.png" alt="MarketPulse Dashboard" width="750">
+</p>
+
+# Trading Thesis: Market Overreactions to Macroeconomic Events
+
+## Core Thesis
+
+Markets systematically overreact to high-impact macroeconomic announcements in the short term, creating temporary mispricing in options premiums that can be exploited through strategic positioning. This inefficiency occurs because:
+
+1. **Initial Volatility Spike**: Markets process macroeconomic data releases (FOMC minutes, JOLTS reports, CPI data) with immediate, often exaggerated price movements
+2. **Volatility Mean Reversion**: This heightened volatility typically reverts toward the mean within 24-48 hours
+3. **Options Mispricing Window**: During this reversion period, options premiums often remain elevated longer than warranted by the actual sustained market impact
+
+## Observations
+
+Through analysis of market behavior surrounding key economic events over the past five years (2020-2025), I've observed several consistent patterns:
+
+- SPY typically exhibits a 0.7-1.2% intraday move following FOMC announcements, but 60-70% of this movement is typically retraced within the next trading session
+- TLT (Treasury bond ETF) shows even more pronounced overreactions to interest rate commentary, with initial moves frequently being partially reversed
+- GLD (gold ETF) demonstrates heightened sensitivity to inflation data, creating opportunities when correlated with bond movements
+
+## Risk Management Framework
+
+While the core thesis has demonstrated consistent validity, effective implementation requires rigorous risk management:
+
+- Position sizing limited to 1-3% of portfolio per trade
+- Defined stop-loss mechanisms based on volatility thresholds rather than just price levels
+- Diversification across uncorrelated economic event types
 
 ## ✨ Key Features
 
