@@ -7,7 +7,7 @@
 
 ## 🔍 Overview
 
-MacroTrader is a comprehensive analytics tool designed to help options traders capitalize on market overreactions to macroeconomic events. By monitoring FOMC meetings, Fed speeches, JOLTS reports, and other significant economic releases, MacroTrader identifies intraday volatility patterns and potential trading opportunities in SPY, TLT, and GLD.
+MacroTrader is a comprehensive analytics tool designed to help traders capitalize on market overreactions to macroeconomic events. By monitoring FOMC meetings, Fed speeches, JOLTS reports, and other significant economic releases, MacroTrader identifies intraday volatility patterns and potential trading opportunities in SPY, TLT, and GLD.
 
 <p align="center">
   <img src="/images/macro.png" alt="MarketPulse Dashboard" width="750">
